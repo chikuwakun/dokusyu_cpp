@@ -39,3 +39,32 @@
 
 # debug information files
 *.dwo
+
+
+
+# ビルド生成物 (これを入れないとリポジトリが肥大化します)
+build/
+DerivedData/
+
+# ユーザー固有の設定 (開いているファイルやウィンドウ配置など)
+# これを無視しないと、別のMacで開いた時に競合します
+*.xcuserdatad/
+*.xcuserstate
+
+# Xcodeプロジェクトのバックアップや一時ファイル
+*.xccheckout
+*.xcscmblueprint
+*.moved-aside
+*.ipa
+*.log
+
+# CMake関連 (ソース[1]にあるCMakeLists.txtを使用する場合)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+
+# OS固有の隠しファイル
+.DS_Store
+
